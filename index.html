@@ -1,0 +1,61 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Volunteer & Charity Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>HelpHub</h1>
+        <p>Connecting Volunteers with Charities</p>
+    </header>
+
+    <main>
+        <section id="volunteer">
+            <h2>Find Volunteer Opportunities</h2>
+            <button onclick="fetchOpportunities()">Show Opportunities</button>
+            <ul id="opportunities"></ul>
+        </section>
+
+        <section id="charity">
+            <h2>Support a Charity</h2>
+            <button onclick="fetchCharities()">Show Charities</button>
+            <ul id="charities"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer & Charity Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Register as a Volunteer or Charity</h2>
+    
+    <form id="volunteerForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label>Role:</label>
+        <input type="radio" name="role" value="Volunteer" checked> Volunteer
+        <input type="radio" name="role" value="Charity"> Charity
+
+        <button type="button" id="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
