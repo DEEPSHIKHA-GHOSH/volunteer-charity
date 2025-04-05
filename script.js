@@ -1,6 +1,6 @@
-const ACCESS_TOKEN = "YOUR_AIRTABLE_ACCESS_TOKEN"; // Replace with actual API key
-const BASE_ID = "YOUR_AIRTABLE_BASE_ID"; // Replace with actual Base ID
-const TABLE_NAME = "Volunteers"; // Adjust if needed
+const ACCESS_TOKEN = "pateHt0EUqQp7IsMj.8ef6b118d4c88dcc5634b402a8e37fcb3e2d13553806831fe6320eb223bc74bd";
+const BASE_ID = "appjThfjgoaZX2WHp";
+const TABLE_NAME = "Table 1";
 
 async function addAndMatchUser(name, email, role, skillsNeeds) {  
     const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_NAME}`;
